@@ -110,7 +110,7 @@ body, input, textarea {
 }
 
 .contact-methods {
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
 
@@ -122,8 +122,9 @@ form input, form textarea, form button {
 }
 
 section h3 {
-    margin-right: 10px;
+    margin-right: 10%;
     margin-bottom: 16px;
+    ;
 }
 
 form textarea {
@@ -132,12 +133,17 @@ form textarea {
 }
 
 .social-links li {
-    display: inline;
+    display:initial;
     margin-right: 8px;
 }
 
 .social-links li a {
     text-decoration: none;
+    margin: 10px;
+    display:flex;
+    text-align:center;
+    align-items: center;
+    
 }
 
 form button {
@@ -154,4 +160,19 @@ form button:hover {
 
 input:focus, textarea:focus {
     outline-color: green;
+}
+
+.central {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.social-links li img {
+    margin-left: 30px;
+}
+
+footer {
+    background-color:darkolivegreen;
+    color: white;
+    padding: 16px 0;
 }
